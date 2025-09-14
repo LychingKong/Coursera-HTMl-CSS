@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="./images/mg-logo.png" />
+    <title>Mangata & Gallo</title>
+    <meta
+      name="description"
+      content="Discover timeless jewelry collections crafted with elegance and style. Shop rings, necklaces, and more to add sparkle to every occasion."
+    />
+    <meta name="author" content="Lyching Kong" />
+    <meta name="language" content="english" />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+
+    <!-- Social Media / Open Graph -->
+    <meta property="og:title" content="Mangata & Gallo" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./mg-logo.png" />
+    <meta property="og:image:alt" content="Company Logo" />
+    <meta
+      property="og:url"
+      content="https://lychingkong.github.io/Coursera-HTMl-CSS/"
+    />
+    <meta
+      property="og:description"
+      content="Discover timeless jewelry collections crafted with elegance and style. Shop rings, necklaces, and more to add sparkle to every occasion."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Mangata & Gallo" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mangata & Gallo" />
+    <meta
+      name="twitter:description"
+      content="Discover timeless jewelry collections crafted with elegance and style. Shop rings, necklaces, and more to add sparkle to every occasion."
+    />
+    <meta name="twitter:image" content="./mg-logo.png" />
+    <meta name="twitter:image:alt" content="Company Logo" />
+    <meta name="twitter:creator" content="@ylychingkong" />
+    <meta name="twitter:site" content="Mangata & Gallo" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <img src="./images/mg-logo.png" alt="Company Logo" />
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h2>Timeless Elegance</h2>
+        <p>Handcrafted jewelry for life's most precious moments</p>
+        <button>Explore Collection</button>
+      </section>
+
+      <!-- Three Column Section -->
+      <section class="features">
+        <div class="feature">
+          <div class="image_container">
+            <img src="./images/diamond-ring.jpg" alt="Engagement Ring" />
+          </div>
+          <h3>Engagement Rings</h3>
+          <p>
+            Begin your forever with our exquisite collection of engagement
+            rings, each piece carefully crafted to symbolize your unique love
+            story.
+          </p>
+        </div>
+        <div class="feature">
+          <div class="image_container">
+            <img
+              src="./images/elegant-wedding-bands-and-rings-on-white-backgroun.jpg"
+              alt="Wedding Bands"
+            />
+          </div>
+          <h3>Wedding Bands</h3>
+          <p>
+            Celebrate your union with our wedding collection, featuring timeless
+            bands and sets designed to complement your engagement ring
+            perfectly.
+          </p>
+        </div>
+        <div class="feature">
+          <div class="image_container">
+            <img
+              src="./images/luxury-anniversary-jewelry-necklace-earrings-on-wh.jpg"
+              alt="Anniversary Jewelry"
+            />
+          </div>
+          <h3>Anniversary Gifts</h3>
+          <p>
+            Mark your milestones with our anniversary collection, featuring
+            stunning necklaces, earrings, and bracelets to commemorate your
+            journey.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-left">
+        <img src="./images/mg-logo.png" alt="Company Logo" />
+      </div>
+      <div class="footer-right">
+        &copy; 2025 Mangata & Gallo. All rights reserved. <br />
+        Lyching, Cambodia | Handcrafted with Love
+      </div>
+    </footer>
+    <!-- Javascript -->
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
